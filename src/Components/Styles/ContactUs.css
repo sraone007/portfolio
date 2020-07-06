@@ -1,0 +1,135 @@
+.Contact-sec{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.col2{
+    min-width: 45%;
+    min-height: 45rem;
+    margin: 1rem;
+    color: black;
+    padding: 1rem;
+    
+
+}
+
+
+.contact-header{
+    text-align: center;
+}
+
+.contact-header h3{
+    font-size: 2.4rem;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    color: #434343;
+    margin: 1rem;
+    border-bottom: 2px solid white;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.contact-header h3 span{
+    color:  #EB233C;
+}
+.contact-header h3:hover{
+    border-bottom-color: #EB233C;
+}
+
+.contact-body{
+    padding: 2rem 3rem;
+}
+
+.contact-body p{
+    font-size: 1.6rem;
+}
+.contact-body h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    margin :1rem ;
+    color: black;
+}
+.contact-body span{
+    color: #EB233C;
+    margin-right: 2.4rem;
+    font-size: 2.4rem;
+}
+
+
+.u-align-center {
+    text-align: center;
+}
+
+.form_group{
+    font-size: 1.6rem;
+    margin-left: 2.4rem;
+    margin-top:2rem;
+}
+
+.form_label{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 600;
+   /* color: #28b485; */
+    color: #EB233C;    
+    transition: all .3s;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-family:  sans-serif;
+}
+
+.form_input{
+    border: none;
+    border-bottom: 1.25px solid rgba(0,0,0,0.6);
+    padding: 1.3rem ;
+    color: rgba(0,0,0,0.9);
+    width: 90%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    display: block;
+}
+
+.form_input:placeholder-shown + .form_label{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
+}
+
+.form_input:focus:invalid{
+
+    border-bottom: 3px solid #ff7700;
+}
+.form_input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+    border-bottom: 3px solid #55c57a;
+}
+
+.send-button{
+    text-align: center;
+    border: none;
+    transition: .2s all;
+}
+
+button{
+    border-radius: 10rem;
+    background-color: #EB233C;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 1.6rem 3.5rem;
+    font-size: 1.8rem;
+    letter-spacing: .15rem;
+    font-weight: 700;
+    outline: none;
+    box-shadow: .5rem 1rem 2rem rgba(0,0,0,0.2) ;
+    
+}
+
+button:hover{
+    transform: translateY(-.5rem) scale(1.02);
+    box-shadow: .5rem 1rem 2rem rgba(0,0,0,0.5);
+    transition: .2s all ;
+}
+
